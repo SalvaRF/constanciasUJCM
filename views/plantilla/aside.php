@@ -49,12 +49,12 @@
                                 <i class="mdi mdi-credit-card-scan"></i>
                                     <span class="hide-menu">No adeudo</span></a>
                         </li>
-                        <li class="sidebar-item"> 
+                        <!-- <li class="sidebar-item"> 
                             <a class="sidebar-link waves-effect waves-dark sidebar-link nuevo"
                                 href="?ctrl=CtrlValidar" aria-expanded="false">
                                 <i class="mdi mdi-credit-card-scan"></i>
                                     <span class="hide-menu">Validar</span></a>
-                        </li>
+                        </li> -->
                         
                     </ul>
 
