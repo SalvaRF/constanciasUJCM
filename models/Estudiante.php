@@ -36,10 +36,10 @@ class Estudiante extends Modelo {
         return $this->_bd->ejecutar($this->_sql);
     }
     public function getDeudasQ(){
-        $sql = "Select e.codigo, sum(d.total) as deuda
+        $sql = "Select e.codigo, e.DNI, sum(d.total) as deuda
             from estudiantes e LEFT JOIN deudas d ON e.id=d.id_estudiante
             where e.dni='$this->dni'
-            group by e.codigo";
+            group by e.codigo, e.DNI";
         $this->setSql($sql);
         return $this->_bd->ejecutar($this->_sql);
     }
